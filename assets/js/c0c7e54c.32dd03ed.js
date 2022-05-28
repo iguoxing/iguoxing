@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2244],{1755:function(e){e.exports=JSON.parse('{"label":"hola","permalink":"/iguoxing/blog/tags/hola","allTagsPath":"/iguoxing/blog/tags","count":1}')}}]);
