@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iguoxing.github.io/iguoxing/blog</id>
-    <title>ArdenZhao的前端笔记 Blog</title>
+    <title>国星的学习笔记 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iguoxing.github.io/iguoxing/blog"/>
-    <subtitle>ArdenZhao的前端笔记 Blog</subtitle>
+    <subtitle>国星的学习笔记 Blog</subtitle>
     <icon>https://iguoxing.github.io/iguoxing/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
