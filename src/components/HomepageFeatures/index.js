@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use666',
+    title: '1、制定目标',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <p>是根据当下阶段的需求来制定的目标；是根据现有努力，能够实现或达到的；</p>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '2、制定计划',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <p>将目标拆分到每周；并规定好每天的规定动作；</p>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '3、阶段复盘',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        每天打卡并复盘当日行动；每周复盘并动态调整计划安排下周的行动。
       </>
     ),
   },
