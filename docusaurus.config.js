@@ -38,8 +38,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -69,9 +69,10 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Note',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { href: 'https://segmentfault.com/', label: 'Blog', position: 'right' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/iguoxing',
             label: 'GitHub',
