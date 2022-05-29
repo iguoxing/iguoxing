@@ -72,7 +72,7 @@ const config = {
             label: 'Note',
           },
           { href: 'https://zhaoguoxing.com/', label: '个人站', position: 'right' },
-          { href: 'https://segmentfault.com/', label: '技术Blog', position: 'right' },
+          { href: 'https://segmentfault.com/u/snowwolfarden', label: '技术Blog', position: 'right' },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/iguoxing',
