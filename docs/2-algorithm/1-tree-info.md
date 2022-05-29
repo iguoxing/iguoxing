@@ -14,15 +14,16 @@ sidebar_position: 1
 
 前序遍历首先访问根节点，然后遍历左子树，最后遍历右子树。
 
-![img](https://pic.leetcode-cn.com/Figures/binary_tree/preorder_traversal/Slide15.png)
+![img](./img/qianxu.png)
 
 
 
 ### 2、中序遍历
 
 中序遍历是先遍历左子树，然后访问根节点，然后遍历右子树。
+![img](./img/zhongdu.png)
 
-![img](https://pic.leetcode-cn.com/Figures/binary_tree/inorder_traversal/Slide22.png)
+<!-- ![img](https://pic.leetcode-cn.com/Figures/binary_tree/inorder_traversal/Slide22.png) -->
 
 通常来说，对于二叉搜索树，我们可以通过中序遍历得到一个递增的有序序列。 我们将在另一张卡片（数据结构介绍 – 二叉搜索树）中再次提及。
 
@@ -32,7 +33,8 @@ sidebar_position: 1
 
 后序遍历是先遍历左子树，然后遍历右子树，最后访问树的根节点。
 
-![img](https://pic.leetcode-cn.com/Figures/binary_tree/postorder_traversal/Slide19.png)
+![img](./img/houxu.png)
+
 
 值得注意的是，当你删除树中的节点时，删除过程将按照后序遍历的顺序进行。 也就是说，当你删除一个节点时，你将首先删除它的左节点和它的右边的节点，然后再删除节点本身。
 
@@ -52,7 +54,7 @@ sidebar_position: 1
 + 找出原始表达式：您可以使用中序遍历轻松找出原始表达式。 但是程序处理这个表达式时并不容易，因为你必须检查操作的优先级。
   + 编译器底层实现的时候用户可以实现基本的加减乘除，比如 a*b+c。
 
-![img](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/07/28/mathematical_expression.png)
+![img](./img/biaodashi.png)
 
 
 

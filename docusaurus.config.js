@@ -71,7 +71,8 @@ const config = {
             position: 'left',
             label: 'Note',
           },
-          { href: 'https://segmentfault.com/', label: 'Blog', position: 'right' },
+          { href: 'https://zhaoguoxing.com/', label: '个人站', position: 'right' },
+          { href: 'https://segmentfault.com/', label: '技术Blog', position: 'right' },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/iguoxing',
