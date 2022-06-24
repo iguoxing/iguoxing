@@ -69,11 +69,16 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Note',
+            label: '前端',
+          },
+          {
+            to: 'wealth',
+            label: '财商',
+            position: 'left',
           },
           { href: 'https://zhaoguoxing.com/', label: '个人站', position: 'right' },
           { href: 'https://segmentfault.com/u/snowwolfarden', label: '技术Blog', position: 'right' },
-          // { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: '财商', position: 'left' },
           {
             href: 'https://github.com/iguoxing',
             label: 'GitHub',
